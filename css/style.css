@@ -156,14 +156,13 @@ z-index: 1;
   padding-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.AboutImage img {
+  box-shadow: 0 2px 6px darkgrey;
   border-radius: 50px 50px;
 }
+
 .WorkSection {
   padding: 50px;
   position: relative;
@@ -196,6 +195,9 @@ h4 {
   text-align: left;
   background-color: rgb(251, 251, 249);
 }
+
+/*Footer Styling*/
+
 .footerSection {
   display: flex;
   flex-direction: row;
